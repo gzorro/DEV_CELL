@@ -7,6 +7,8 @@ import { HeaderComponent } from './components/header/header.component';
 import { HomeComponent } from './components/home/home.component';
 import { SearchComponent } from './components/search/search.component';
 import { UserComponent } from './components/user/user.component';
+import { CallbackComponent } from './components/callback/callback.component';
+import { ProtegidaComponent } from './components/protegida/protegida.component';
 
 @NgModule({
   // exports:[]
@@ -15,7 +17,9 @@ import { UserComponent } from './components/user/user.component';
     HeaderComponent,
     HomeComponent,
     SearchComponent,
-    UserComponent
+    UserComponent,
+    CallbackComponent,
+    ProtegidaComponent
   ],
   imports: [
     BrowserModule,
